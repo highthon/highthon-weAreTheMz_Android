@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.screen.RecordActivity">
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/exit_record"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/exit_record"/>
+
+    <ImageView
+        android:id="@+id/change_mode"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/change_camera_mode"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="top|end"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/record_button"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/record_start"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="bottom|center_horizontal"/>
+</FrameLayout>

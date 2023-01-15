@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Challenge</string>
+    <string name="welcome_text"><b>닉네임</b>님,\n안녕하세요!</string>
+    <string name="mz_pick"><b>MZ</b> Pick!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

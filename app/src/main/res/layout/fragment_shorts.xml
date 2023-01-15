@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.screen.ShortsFragment">
+
+<!--    <androidx.viewpager2.widget.ViewPager2-->
+<!--        android:id="@+id/shorts_pager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+    <VideoView
+        android:id="@+id/video_view_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/exit_shorts"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/back_send_video"
+        android:layout_margin="20dp"
+        app:tint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="릴스"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+</FrameLayout>
